@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="showDetails" method="post">
+    {% csrf_token %}
+  First Name:<br>
+  <input type="text" name="First Name">
+  <br>
+  Last Name:<br>
+  <input type="text" name="Last Name">
+    SELECT GENDER
+        <br>
+        <input type="radio" name="gender" VALUE="MALE">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" VALUE="FEMALE">
+        <label for="female">Female</label>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
